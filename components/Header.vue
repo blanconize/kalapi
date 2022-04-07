@@ -7,7 +7,7 @@
 						<nuxt-link to="/">
 							<span class="sr-only">Workflow</span>
 							<div class="lg:absolute lg:-top-8 lg:left-0">
-								<img class="h-12 w-auto lg:h-48 transition-all" src="logo.svg" alt="" />
+								<nuxt-img class="h-12 w-auto lg:h-48 transition-all" src="logo.svg" />
 							</div>
 						</nuxt-link>
 					</div>

@@ -1,0 +1,31 @@
+{
+	"posts": [
+		{
+			"type": "img",
+			"imageUrl": "kalapi_paradies.png",
+			"content": {
+				"headline": "VIDEO: DIE NACHT VON FREITAG AUF MONTAG",
+				"overline": "28.02.2021",
+				"text": "Ein Wochenende zusammen mit Freunden, Party, Konzerten, Bier und Eskalationen. Um uns die Wartezeit bis dahin zu versüßen gibt es von uns ein Cover von den wundervollen SDP. Ein Song der genau dieses Gefühl wiederspiegelt! Habt Spaß, tanzt, pogt, singt und macht euch ein Bier auf! Wir sehen uns hoffentlich im Herbst auf unserer Paradies Tour quer durch die Republik! Prost!!!"
+			}
+		},
+		{
+			"type": "video",
+			"videoUrl": "https://www.youtube.com/embed/sGV1XBTUADc",
+			"content": {
+				"headline": "VIDEO: ALTE STADT",
+				"overline": "28.02.2020",
+				"text": "Wer erkennt, wo wir das Video zu unserer zweiten Paradies-Single „Alte Stadt“ gedreht haben? Schaut es euch auf Youtube an!"
+			}
+		},
+		{
+			"type": "img",
+			"imageUrl": "kalapi_paradies.png",
+			"content": {
+				"headline": "Test",
+				"overline": "123",
+				"text": "Lorem Ipsum"
+			}
+		}
+	]
+}

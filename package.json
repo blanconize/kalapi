@@ -9,6 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/content": "^1.15.1",
+    "@nuxt/image": "^0.6.2",
     "@nuxt/kit": "^0.8.1-edge",
     "@nuxtjs/composition-api": "^0.32.0",
     "@tailwindcss/aspect-ratio": "^0.4.0",

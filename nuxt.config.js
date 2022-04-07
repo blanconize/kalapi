@@ -1,4 +1,5 @@
 export default {
+	target: "static",
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: "kalapi",
@@ -43,7 +44,7 @@ export default {
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["@vueuse/nuxt"],
+	modules: ["@vueuse/nuxt", "@nuxt/image", "@nuxt/content"],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
