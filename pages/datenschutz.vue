@@ -1,7 +1,9 @@
 <template>
 	<main class="">
-		<Hero headline="OLD SCHOOL WAR GESTERN" />
+		<Hero headline="Datenschutz" />
 	</main>
 </template>
 
 <script setup></script>
+
+<style lang="scss" scoped></style>

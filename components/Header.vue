@@ -170,6 +170,6 @@
 		showMobile.value = false;
 	});
 	const scrollPagetoRef = ref => {
-		alert(ref.ref);
+		console.log(ref);
 	};
 </script>

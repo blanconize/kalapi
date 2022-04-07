@@ -6,11 +6,11 @@
 					<div class="flex w-full justify-between md:justify-start md:w-auto flex-wrap">
 						<div class="text-lg md:mr-36">&copy; KALAPI GBR 2022</div>
 						<div class="flex flex-wrap md:flex-nowrap md:space-x-24">
-							<div class="w-full text-center md:text-left md:w-auto text-lg uppercase">
-								<nuxt-link to="/impressum">IMPRESSUM</nuxt-link>
-							</div>
-							<div class="w-full md:w-auto text-center md:text-left text-lg uppercase">
-								<nuxt-link to="/datenschutz">Datenschutz</nuxt-link>
+							<div
+								class="w-full text-center md:text-left md:w-auto text-lg uppercase"
+								v-for="nav in navigation"
+							>
+								<nuxt-link :to="nav.ref">{{ nav.label }}</nuxt-link>
 							</div>
 						</div>
 					</div>
@@ -25,6 +25,17 @@
 	</footer>
 </template>
 
-<script setup></script>
+<script setup>
+	const navigation = [
+		{
+			label: "Impressum",
+			ref: "/impressum"
+		},
+		{
+			label: "Datenschutz",
+			ref: "/datenschutz"
+		}
+	];
+</script>
 
 <style lang="scss" scoped></style>

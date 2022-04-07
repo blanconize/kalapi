@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="absolute w-full top-0 left-0">
 		<Header />
 		<nuxt />
 		<Footer />
