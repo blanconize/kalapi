@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+	opacity: 0;
+}
+
+.fade-slide-enter-active {
+	transition: all 0.3s ease;
+}
+.fade-slide-leave-active {
+	transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-slide-enter,
+.fade-slide-leave-to {
+	transform: translateY(-30px);
+	opacity: 0;
+}
+
+main {
+	@apply min-h-screen;
+}
+
+.area {
+	@apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}

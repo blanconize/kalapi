@@ -1,0 +1,14 @@
+{
+	"$schema": "http://json.schemastore.org/prettierrc",
+	"arrowParens": "avoid",
+	"endOfLine": "lf",
+	"printWidth": 120,
+	"proseWrap": "always",
+	"semi": true,
+	"singleQuote": false,
+	"useTabs": true,
+	"trailingComma": "none",
+	"tabWidth": 4,
+	"quoteProps": "preserve",
+	"vueIndentScriptAndStyle": true
+}
