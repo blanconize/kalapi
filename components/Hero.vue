@@ -1,10 +1,17 @@
 <template>
-	<section ref="hero" class="bg-black md:h-screen md:max-h-56 lg:max-h-96 flex items-end justify-start">
-		<div class="w-full max-w-7xl mx-auto px-4 lg:px-8">
+	<section
+		ref="hero"
+		class="bg-black md:h-screen md:max-h-56 lg:max-h-96 flex items-end justify-start flex-wrap relative"
+	>
+		<div class="area">
 			<div class="pt-8 lg:-mb-8 w-full lg:w-1/2">
 				<HeroHeadline :headline="props.headline" />
 			</div>
 		</div>
+		<div
+			class="absolute top-full left-0 w-full h-8 cover-fill"
+			style="background-image: url('background/distortion_bottosm.svg')"
+		></div>
 	</section>
 </template>
 

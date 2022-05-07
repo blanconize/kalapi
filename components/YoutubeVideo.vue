@@ -1,6 +1,6 @@
 <template>
 	<iframe
-		class="w-full h-full transition-all duration-500 delay-300"
+		class="w-full h-full transition-all duration-500 delay-300 shadow-2xl"
 		:class="!show ? 'opacity-0 -translate-y-10' : ''"
 		:src="src"
 		:title="src"

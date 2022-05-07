@@ -1,5 +1,5 @@
 <template>
-	<main class="">
+	<main class="pt-20 lg:pt-48">
 		<Hero headline="OLD SCHOOL WAR GESTERN" />
 		<Aktuelles :news="content.news" />
 		<Termine :termine="content.termine" />

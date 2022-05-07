@@ -1,13 +1,13 @@
 <template>
-	<header ref="navbar">
-		<div class="relative bg-black lg:h-48">
+	<header ref="navbar" class="fixed left-0 top-0 w-full z-30">
+		<div class="relative bg-black h-20 lg:h-48">
 			<div class="area">
 				<div class="flex justify-between items-center py-4 lg:pt-12 lg:justify-start md:space-x-10">
 					<div class="flex justify-start lg:w-0 lg:flex-1 relative h-12">
 						<nuxt-link to="/">
 							<span class="sr-only">Workflow</span>
 							<div class="lg:absolute lg:-top-8 lg:left-0">
-								<nuxt-img class="h-12 w-auto lg:h-48 transition-all" src="logo.svg" />
+								<nuxt-img class="h-12 w-auto lg:h-40 transition-all" src="logo.svg" />
 							</div>
 						</nuxt-link>
 					</div>
@@ -165,7 +165,4 @@
 	onClickOutside(navbar, () => {
 		showMobile.value = false;
 	});
-	const scrollPagetoRef = ref => {
-		console.log(ref);
-	};
 </script>
