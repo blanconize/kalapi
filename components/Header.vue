@@ -40,12 +40,7 @@
 						<a
 							v-for="nav in navigation"
 							:href="nav.ref"
-							:target="nav.external && '_blank'"
 							class="font-bold text-white uppercase px-4 py-2 hover:bg-white hover:text-black leading-none text-lg transition-colors flex items-center"
-							:class="
-								nav.external && 'text-red-500 border-red-500 border-2 hover:bg-red-500 hover:text-white'
-							"
-							@click.prevent="scrollPagetoRef(nav)"
 						>
 							{{ nav.label }}
 						</a>
@@ -103,6 +98,7 @@
 									<div class="flex justify-center" v-for="nav in navigation">
 										<a
 											:href="nav.ref"
+											@click="toggleMobile()"
 											class="font-bold text-white uppercase px-4 py-2 hover:bg-white hover:text-black leading-none text-xl transition-colors inline-flex items-center"
 										>
 											{{ nav.label }}
@@ -136,23 +132,23 @@
 	const navigation = reactive([
 		{
 			label: "Aktuelles",
-			ref: "aktuelles"
+			ref: "#aktuelles"
 		},
 		{
 			label: "Termine",
-			ref: "termine"
+			ref: "#termine"
 		},
 		{
 			label: "Band",
-			ref: "band"
+			ref: "#band"
 		},
 		{
 			label: "Diskografie",
-			ref: "diskografie"
+			ref: "#diskografie"
 		},
 		{
 			label: "Kontakt",
-			ref: "kontakt"
+			ref: "#kontakt"
 		}
 	]);
 

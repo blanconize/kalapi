@@ -1,5 +1,27 @@
 {
-	"posts": [
+	"termine": [
+		{
+			"date": "FR. 30.09.",
+			"title": "THE RUMJACKS - STATTBAHNHOF SCHWEINFURT",
+			"link": "https://kalapi.de"
+		},
+		{
+			"date": "FR. 30.09.",
+			"title": "THE RUMJACKS - STATTBAHNHOF SCHWEINFURT",
+			"link": "https://kalapi.de"
+		},
+		{
+			"date": "FR. 30.09.",
+			"title": "123THE RUMJACKS - STATTBAHNHOF SCHWEINFURT",
+			"link": "https://kalapi.de"
+		},
+		{
+			"date": "FR. 30.09.",
+			"title": "123THE RUMJACKS - STATTBAHNHOF SCHWEINFURT",
+			"link": "https://kalapi.de"
+		}
+	],
+	"news": [
 		{
 			"type": "img",
 			"imageUrl": "kalapi_paradies.png",
@@ -20,7 +42,7 @@
 		},
 		{
 			"type": "img",
-			"imageUrl": "kalapi_paradies.png",
+			"imageUrl": "kalapi_paradies2.png",
 			"content": {
 				"headline": "Test",
 				"overline": "123",

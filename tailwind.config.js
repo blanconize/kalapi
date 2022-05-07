@@ -9,7 +9,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			opensans: ["Open Sans"],
-			teko: ["Teko"]
+			teko: ["Teko, sans-serif"]
 		},
 		extend: {
 			letterSpacing: {

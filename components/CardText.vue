@@ -2,17 +2,10 @@
 	<div class="py-4">
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 			<div v-if="post.type == 'img'">
-				<nuxt-img loading="lazy" :src="post.imageUrl" />
+				<LazyImage :src="post.imageUrl" :alt="post.title" />
 			</div>
 			<div class="aspect-w-16 aspect-h-9" v-if="post.type == 'video'">
-				<iframe
-					class="w-full h-full"
-					:src="post.videoUrl"
-					:title="post.title"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen
-				></iframe>
+				<YoutubeVideo :src="post.videoUrl" :title="post.title" />
 			</div>
 			<div
 				class="py-6 sm:p-4 md:py-8"

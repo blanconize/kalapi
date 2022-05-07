@@ -15,7 +15,7 @@
 						</div>
 					</div>
 					<div class="text-lg py-4 md:py-0 uppercase w-full md:w-auto">
-						<a hrref="https://www.weareindeed.com/" target="_blank"
+						<a href="https://www.weareindeed.com/" target="_blank"
 							>WEBSITE: <span class="text-red-500 underline"> WEAREINDEED</span></a
 						>
 					</div>
