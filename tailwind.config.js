@@ -6,6 +6,7 @@ module.exports = {
 		"./plugins/**/*.{js}",
 		"./nuxt.config.{js}"
 	],
+
 	theme: {
 		fontFamily: {
 			opensans: ["Open Sans"],
@@ -18,6 +19,11 @@ module.exports = {
 				"3": ".75px",
 				"4": "1px",
 				"5": "1.25px"
+			},
+			maxWidth: {
+				"8xl": "90rem",
+				"9xl": "100rem",
+				"10xl": "110rem"
 			}
 		}
 	},

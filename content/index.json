@@ -51,7 +51,40 @@
 		}
 	],
 	"band": {
-		"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu",
-		"images": ["123"]
-	}
+		"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu"
+	},
+	"diskografie": [
+		{
+			"title": "PARADIES (ALBUM)",
+			"release": "VÖ 28.5.2020",
+			"text": "11 richtig geile Songs von KALAPI – aufgenommen mit genauso viel Spaß, guter Laune und der Energie, die Kalapi sonst live an den Tag legen!",
+			"shoplink": "https://shop.kalapi.de/",
+			"spotify": "https://www.spotify.com/de/",
+			"cover": "disko/disko_1.png"
+		},
+		{
+			"title": "SICHTWEISEN (EP)",
+			"release": "VÖ 28.5.2020",
+			"text": "Die EP „Sichtweisen“ enthält vier fette Songs, aufgenommen 2018. Viel Spaß beim hören!",
+			"shoplink": "https://shop.kalapi.de/",
+			"spotify": "https://www.spotify.com/de/",
+			"cover": "disko/disko_2.png"
+		},
+		{
+			"title": "ZWISCHEN PATHOS & PLATTITÜDE",
+			"release": "VÖ 28.5.2017",
+			"text": "Eines der älteren Werke! Du willst das trotzdem hören? Dann besuch eine unserer Shows oder hör uns bei Spotify!",
+			"shoplink": "https://shop.kalapi.de/",
+			"spotify": "https://www.spotify.com/de/",
+			"cover": "disko/disko_3.png"
+		},
+		{
+			"title": "SCHACHMATT",
+			"release": "VÖ 28.5.2015",
+			"text": "Unsere älteste Scheibe! Du willst das trotzdem hören? Dann besuch eine unserer Shows oder hör uns bei Spotify!",
+			"shoplink": "https://shop.kalapi.de/",
+			"spotify": "https://www.spotify.com/de/",
+			"cover": "disko/disko_4.png"
+		}
+	]
 }

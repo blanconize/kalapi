@@ -9,8 +9,8 @@
 			</div>
 		</div>
 		<div
-			class="absolute top-full left-0 w-full h-8 cover-fill"
-			style="background-image: url('background/distortion_bottosm.svg')"
+			class="absolute top-full left-0 w-full h-3 bg-contain bg-repeat"
+			style="background-image: url('distortion_bottom.svg')"
 		></div>
 	</section>
 </template>

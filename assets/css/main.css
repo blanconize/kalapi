@@ -31,3 +31,7 @@ main {
 .area {
 	@apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
+
+.area-xl {
+	@apply w-full max-w-10xl mx-auto px-4 sm:px-6 lg:px-8;
+}

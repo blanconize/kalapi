@@ -1,15 +1,37 @@
 <template>
 	<div
-		class="text-white bg-black p-8 w-full lg:w-10/12 flex flex-wrap md:flex-nowrap gap-8 items-center justify-between transition-all duration-500"
+		class="text-white bg-cover bg-no-repeat w-full lg:w-10/12 transition-all duration-500 relative"
 		ref="terminRef"
 		:class="!show ? 'opacity-0 translate-x-52' : ''"
 	>
-		<div class="text-4xl w-full md:w-auto">{{ termin.date }}</div>
-		<div class="text-4xl w-full sm:w-2/3">{{ termin.title }}</div>
 		<div
-			class="px-4 py-2 text-xl text-white border-white border-2 hover:bg-white hover:text-black transition-colors uppercase content-end"
+			class="absolute top-full left-0 w-full h-3 bg-contain bg-repeat"
+			style="background-image: url('distortion_bottom.svg')"
+		></div>
+		<div
+			class="absolute bottom-full left-0 w-full h-3 bg-contain bg-repeat rotate-180"
+			style="background-image: url('distortion_bottom.svg')"
+		></div>
+		<div class="absolute top-0 left-full -translate-x-1 w-[10000px] h-full bg-black">
+			<div
+				class="absolute top-full left-0 w-full h-3 bg-contain bg-repeat"
+				style="background-image: url('distortion_bottom.svg')"
+			></div>
+			<div
+				class="absolute bottom-full left-0 w-full h-3 bg-contain bg-repeat rotate-180"
+				style="background-image: url('distortion_bottom.svg')"
+			></div>
+		</div>
+		<div
+			class="bg-black p-8 flex flex-wrap md:flex-nowrap gap-8 items-center justify-between rounded-tl-sm rounded-bl-sm"
 		>
-			<a :href="termin.link" target="_blank">Tickets</a>
+			<div class="text-4xl w-full md:w-auto">{{ termin.date }}</div>
+			<div class="text-4xl w-full sm:w-2/3">{{ termin.title }}</div>
+			<div
+				class="px-4 py-2 text-xl text-white border-white border-2 hover:bg-white hover:text-black transition-colors uppercase content-end"
+			>
+				<a :href="termin.link" target="_blank">Tickets</a>
+			</div>
 		</div>
 	</div>
 </template>

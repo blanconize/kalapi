@@ -3,7 +3,7 @@
 		<div class="grid grid-cols-8 gap-4">
 			<div class="col-span-full lg:col-span-5">
 				<div v-if="post.type == 'img'">
-					<LazyImage :src="post.imageUrl" :alt="post.title" />
+					<LazyImage type="img" :src="post.imageUrl" :alt="post.title" />
 				</div>
 				<div class="aspect-w-16 aspect-h-9" v-if="post.type == 'video'">
 					<YoutubeVideo :src="post.videoUrl" :title="post.title" />
@@ -13,20 +13,14 @@
 				class="col-span-full lg:col-span-3"
 				:class="index % 2 == 0 ? 'lg:order-first md:pr-10 md:pl-0' : 'lg:order-last md:pl-10 md:pr-0'"
 			>
-				<div class="py-6 sm:p-4 md:py-10">
-					<div class="text-xl">{{ post.content.overline }}</div>
-					<div class="text-4xl">{{ post.content.headline }}</div>
-					<div class="text-sm font-opensans">
-						{{ post.content.text }}
-					</div>
-				</div>
+				<TextBlock :content="post.content" :left="left" />
 			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
-	defineProps({
+	const props = defineProps({
 		index: {
 			type: Number,
 			required: true
@@ -46,6 +40,8 @@
 			}
 		}
 	});
+
+	const left = props.index % 2 === 0;
 </script>
 
 <style lang="scss" scoped></style>
