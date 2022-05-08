@@ -7,8 +7,18 @@
 					<h3 class="text-4xl tracking-5 text-white leading-none uppercase">Termine</h3>
 				</div>
 			</div>
-			<div class="py-4 flex justify-end flex-wrap gap-8">
-				<Termin v-for="(termin, index) in termine" :termin="termin" :key="index" />
+			<div class="py-8 flex justify-end flex-wrap gap-8">
+				<Termin
+					v-show="showTermin(index)"
+					v-for="(termin, index) in props.termine"
+					:termin="termin"
+					:key="index"
+				/>
+			</div>
+			<div v-show="max < props.termine.length" class="flex justify-end">
+				<button @click="increment()" class="text-red-500 text-lg font-bold underline">
+					mehr Termine laden
+				</button>
 			</div>
 		</div>
 	</section>
@@ -16,9 +26,20 @@
 
 <script setup>
 	import Termin from "@/components/Termin.vue";
-	defineProps({
+	import { ref } from "@nuxtjs/composition-api";
+
+	const max = ref(3);
+	const props = defineProps({
 		termine: Array
 	});
+
+	const showTermin = current => {
+		return current < max.value;
+	};
+
+	const increment = () => {
+		max.value = max.value + 3;
+	};
 </script>
 
 <style scoped></style>

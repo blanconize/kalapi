@@ -1,5 +1,5 @@
 <template>
-	<section ref="aktuelles" id="aktuelles" class="bg-white py-24">
+	<section ref="diskografie" id="diskografie" class="bg-white py-24">
 		<div class="area">
 			<div class="bg-black p-6 inline-flex items-center mb-12">
 				<SectionHeadline headline="Diskografie" />
@@ -12,8 +12,8 @@
 </template>
 
 <script setup>
-	import SectionHeadline from "../Headlines/SectionHeadline.vue";
-	import DiskoItem from "./DiskoItem.vue";
+	import DiskoItem from "@/components/DiskoItem.vue";
+	import SectionHeadline from "@/components/Headlines/SectionHeadline.vue";
 	defineProps({
 		diskografie: Array
 	});

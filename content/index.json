@@ -23,8 +23,8 @@
 	],
 	"news": [
 		{
-			"type": "img",
-			"imageUrl": "kalapi_paradies.png",
+			"type": "video",
+			"videoUrl": "https://www.youtube.com/embed/MEP60OHoNio",
 			"content": {
 				"headline": "VIDEO: DIE NACHT VON FREITAG AUF MONTAG",
 				"overline": "28.02.2021",
@@ -44,9 +44,9 @@
 			"type": "img",
 			"imageUrl": "kalapi_paradies.png",
 			"content": {
-				"headline": "Test",
-				"overline": "123",
-				"text": "Lorem Ipsum"
+				"headline": "ALBUM: PARADIES",
+				"overline": "10.04.2020",
+				"text": "Ab sofort ist das neue Album „Paradies“ vorbestellbar in unserem Online-Shop! Veröffentlicht und verschickt wird es am 29.Mai 2020 Die Platte wurde Ende 2019 mit Aaron Rusch in ziemlich geilen Sessions eingespielt und hat uns selber dermaßen überzeugt, dass wir schon richtig heiß sind das Zeug live zu präsentieren. 11 richtig heiße Songs, die mitreißen"
 			}
 		}
 	],
@@ -85,6 +85,67 @@
 			"shoplink": "https://shop.kalapi.de/",
 			"spotify": "https://www.spotify.com/de/",
 			"cover": "disko/disko_4.png"
+		}
+	],
+	"kontakt": {
+		"contact": [
+			{
+				"label": "KALAPI GBR",
+				"email": "management@kalapi.de"
+			},
+			{
+				"label": "BOOKING",
+				"email": "booking@kalapi.de"
+			},
+			{
+				"label": "LINKS",
+				"email": "booking@kalapi.de"
+			}
+		],
+		"profiles": [
+			{
+				"icon": "spotify",
+				"link": "https://spotify.com"
+			},
+			{
+				"icon": "facebook",
+				"link": "https://facebook.com"
+			},
+			{
+				"icon": "instagram",
+				"link": "https://instagram.com"
+			},
+			{
+				"icon": "youtube",
+				"link": "https://youtube.com"
+			}
+		]
+	},
+	"sponsors": [
+		{
+			"imgUrl": "sponsors/Zoundr-Web.png",
+			"link": ""
+		},
+		{
+			"imgUrl": "sponsors/Timezone@2x.png"
+		},
+		{
+			"imgUrl": "sponsors/Recordjet-Web.png"
+		},
+		{
+			"imgUrl": "sponsors/Pomadeshop.png"
+		},
+		{
+			"imgUrl": "sponsors/KathaCut-Web.png"
+		},
+		{
+			"imgUrl": "sponsors/Jule-Schneider-Web.png"
+		},
+		{
+			"imgUrl": "sponsors/Evans_logo-kl.png"
+		},
+		{
+			"imgUrl": "sponsors/c-guitars@2x.png"
 		}
 	]
 }

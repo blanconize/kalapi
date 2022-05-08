@@ -5,23 +5,23 @@
 		:class="!show ? 'opacity-0 translate-x-52' : ''"
 	>
 		<div
-			class="absolute top-full left-0 w-full h-3 bg-contain bg-repeat"
+			class="absolute top-full left-0 w-full h-4 bg-contain bg-repeat"
 			style="background-image: url('distortion_bottom.svg')"
 		></div>
 		<div
-			class="absolute bottom-full left-0 w-full h-3 bg-contain bg-repeat rotate-180"
+			class="absolute bottom-full left-0 w-full h-4 bg-contain bg-repeat rotate-180"
 			style="background-image: url('distortion_bottom.svg')"
 		></div>
-		<div class="absolute top-0 left-full -translate-x-1 w-[10000px] h-full bg-black">
+		<!-- <div class="absolute top-0 left-full -translate-x-1 w-[10000px] h-full bg-black">
 			<div
-				class="absolute top-full left-0 w-full h-3 bg-contain bg-repeat"
+				class="absolute top-full left-0 w-full h-4 bg-contain bg-repeat"
 				style="background-image: url('distortion_bottom.svg')"
 			></div>
 			<div
-				class="absolute bottom-full left-0 w-full h-3 bg-contain bg-repeat rotate-180"
+				class="absolute bottom-full left-0 w-full h-4 bg-contain bg-repeat rotate-180"
 				style="background-image: url('distortion_bottom.svg')"
 			></div>
-		</div>
+		</div> -->
 		<div
 			class="bg-black p-8 flex flex-wrap md:flex-nowrap gap-8 items-center justify-between rounded-tl-sm rounded-bl-sm"
 		>

@@ -1,7 +1,7 @@
 <template>
-	<section ref="aktuelles" id="aktuelles" class="bg-black pb-24 relative">
+	<section ref="band" id="band" class="bg-black pb-24 relative">
 		<div
-			class="absolute bottom-full left-0 w-full h-3 bg-contain bg-repeat rotate-180"
+			class="absolute bottom-full left-0 w-full h-4 bg-contain bg-repeat rotate-180"
 			style="background-image: url('distortion_bottom.svg')"
 		></div>
 		<div class="area">

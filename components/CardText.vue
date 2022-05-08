@@ -10,7 +10,7 @@
 				</div>
 			</div>
 			<div
-				class="col-span-full lg:col-span-3"
+				class="col-span-full lg:col-span-3 flex items-center"
 				:class="index % 2 == 0 ? 'lg:order-first md:pr-10 md:pl-0' : 'lg:order-last md:pl-10 md:pr-0'"
 			>
 				<TextBlock :content="post.content" :left="left" />
