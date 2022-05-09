@@ -104,19 +104,19 @@
 		],
 		"profiles": [
 			{
-				"icon": "icon-spotify",
+				"icon": "spotify",
 				"link": "https://spotify.com"
 			},
 			{
-				"icon": "icon-facebook",
+				"icon": "facebook",
 				"link": "https://facebook.com"
 			},
 			{
-				"icon": "icon-instagram",
+				"icon": "instagram",
 				"link": "https://instagram.com"
 			},
 			{
-				"icon": "icon-youtube",
+				"icon": "youtube",
 				"link": "https://youtube.com"
 			}
 		]

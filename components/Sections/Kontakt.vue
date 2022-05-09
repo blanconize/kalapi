@@ -22,7 +22,7 @@
 							class="col-span-1 md:flex md:justify-end"
 						>
 							<a target="_blank" :href="contact.link">
-								<div v-html="iconSvg(contact.icon)"></div>
+								<Icon class="h-6 w-6 hover:text-red-500" :name="contact.icon" />
 							</a>
 						</div>
 					</div>
@@ -36,10 +36,6 @@
 	const props = defineProps({
 		kontakt: Object
 	});
-
-	const iconSvg = src => {
-		return require(`assets/svg/icons/${src}.svg?raw`);
-	};
 </script>
 
 <style lang="scss" scoped></style>
