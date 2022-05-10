@@ -1,9 +1,9 @@
 <template>
-	<div v-bind="{ ...props }" class="flex items-center transition-colors" v-html="iconSvg(name)"></div>
+	<div class="flex items-center transition-colors" v-html="iconSvg(props.name)"></div>
 </template>
 
 <script setup>
-	const { name, ...props } = defineProps({
+	const props = defineProps({
 		name: String
 	});
 

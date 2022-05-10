@@ -7,7 +7,7 @@
 					<h3 class="text-4xl tracking-5 text-white leading-none uppercase">Termine</h3>
 				</div>
 			</div>
-			<div class="py-8 flex justify-end flex-wrap gap-8">
+			<div class="py-8 flex justify-end flex-wrap gap-y-12">
 				<Termin
 					v-show="showTermin(index)"
 					v-for="(termin, index) in props.termine"
