@@ -3,7 +3,9 @@
 		<div class="area">
 			<div class="grid grid-cols-4 gap-12">
 				<div class="col-span-2 lg:col-span-1" v-for="(sponsor, index) in sponsors">
-					<LazyImage type="img" :src="sponsor.imgUrl" />
+					<a :href="sponsor.link" target="_blank">
+						<LazyImage type="img" :src="sponsor.imgUrl" />
+					</a>
 				</div>
 			</div>
 		</div>

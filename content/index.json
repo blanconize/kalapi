@@ -58,22 +58,23 @@
 			"title": "PARADIES (ALBUM)",
 			"release": "VÖ 28.5.2020",
 			"text": "11 richtig geile Songs von KALAPI – aufgenommen mit genauso viel Spaß, guter Laune und der Energie, die Kalapi sonst live an den Tag legen!",
-			"spotify": "https://www.spotify.com/de/",
+			"shoplink": "https://shop.kalapi.de/produkt/cd-paradies-album/",
+			"spotify": "https://open.spotify.com/album/74rdu1KgCRgFFcGQtn7fPZ?si=h3O7ZGuPSRyJte6xD_2NuQ",
 			"cover": "disko/disko_1.png"
 		},
 		{
 			"title": "SICHTWEISEN (EP)",
 			"release": "VÖ 28.5.2020",
 			"text": "Die EP „Sichtweisen“ enthält vier fette Songs, aufgenommen 2018. Viel Spaß beim hören!",
-			"shoplink": "https://shop.kalapi.de/",
-			"spotify": "https://www.spotify.com/de/",
+			"shoplink": "https://shop.kalapi.de/produkt/cd-sichtweisen/",
+			"spotify": "https://open.spotify.com/album/6F6fspXSNlPJCGzCmPYgnr?si=baoopEhTTe6Q8P2gC_D1ZA",
 			"cover": "disko/disko_2.png"
 		},
 		{
 			"title": "ZWISCHEN PATHOS & PLATTITÜDE",
 			"release": "VÖ 28.5.2017",
 			"text": "Eines der älteren Werke! Du willst das trotzdem hören? Dann besuch eine unserer Shows oder hör uns bei Spotify!",
-			"shoplink": "https://shop.kalapi.de/",
+			"shoplink": "https://shop.kalapi.de/produkt/cd-zpp/",
 			"spotify": "https://www.spotify.com/de/",
 			"cover": "disko/disko_3.png"
 		},
@@ -81,8 +82,8 @@
 			"title": "SCHACHMATT",
 			"release": "VÖ 28.5.2015",
 			"text": "Unsere älteste Scheibe! Du willst das trotzdem hören? Dann besuch eine unserer Shows oder hör uns bei Spotify!",
-			"shoplink": "https://shop.kalapi.de/",
-			"spotify": "https://www.spotify.com/de/",
+			"shoplink": "https://shop.kalapi.de/produkt/cd-schachmatt/",
+			"spotify": "https://open.spotify.com/album/4McJDDXS7p9xe3bxAagf2b?si=7MGUo6UVT5eEAchhYkEtyw",
 			"cover": "disko/disko_4.png"
 		}
 	],
@@ -104,47 +105,54 @@
 		"profiles": [
 			{
 				"icon": "spotify",
-				"link": "https://spotify.com"
+				"link": "https://open.spotify.com/artist/2v72NZfXmP8N4cfb0OfM7z"
 			},
 			{
 				"icon": "facebook",
-				"link": "https://facebook.com"
+				"link": "https://de-de.facebook.com/kalapi.official"
 			},
 			{
 				"icon": "instagram",
-				"link": "https://instagram.com"
+				"link": "https://www.instagram.com/kalapi_band/"
 			},
 			{
 				"icon": "youtube",
-				"link": "https://youtube.com"
+				"link": "https://www.youtube.com/channel/UCGZpz62T135SNZE_h_qRclw"
 			}
 		]
 	},
 	"sponsors": [
 		{
 			"imgUrl": "sponsors/Zoundr-Web.png",
-			"link": ""
+			"link": "https://www.zoundr.com/"
 		},
 		{
-			"imgUrl": "sponsors/Timezone@2x.png"
+			"imgUrl": "sponsors/Timezone@2x.png",
+			"link": "https://shop.kalapi.de"
 		},
 		{
-			"imgUrl": "sponsors/Recordjet-Web.png"
+			"imgUrl": "sponsors/Recordjet-Web.png",
+			"link": "https://www.recordjet.com/"
 		},
 		{
-			"imgUrl": "sponsors/Pomadeshop.png"
+			"imgUrl": "sponsors/Pomadeshop.png",
+			"link": "https://pomadeshop.com/"
 		},
 		{
-			"imgUrl": "sponsors/KathaCut-Web.png"
+			"imgUrl": "sponsors/KathaCut-Web.png",
+			"link": "https://www.facebook.com/kathacut/"
 		},
 		{
-			"imgUrl": "sponsors/Jule-Schneider-Web.png"
+			"imgUrl": "sponsors/Jule-Schneider-Web.png",
+			"link": "https://www.facebook.com/JuleSchneiderFotografie"
 		},
 		{
-			"imgUrl": "sponsors/Evans_logo-kl.png"
+			"imgUrl": "sponsors/Evans_logo-kl.png",
+			"link": "https://shop.kalapi.de"
 		},
 		{
-			"imgUrl": "sponsors/c-guitars@2x.png"
+			"imgUrl": "sponsors/c-guitars@2x.png",
+			"link": "http://www.c-guitars.de/"
 		}
 	]
 }
