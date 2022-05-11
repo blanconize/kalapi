@@ -5,6 +5,7 @@
 				ref="video"
 				id="kalapiHeroVideo"
 				autoplay
+				muted
 				loop
 				src="video/kalapi-reel-kurz_crf-28_yuv420p.mp4"
 				class="w-full"
