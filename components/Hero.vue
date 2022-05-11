@@ -3,14 +3,14 @@
 		<div class="w-full">
 			<video
 				ref="video"
+				id="kalapiHeroVideo"
 				autoplay
-				muted
 				loop
 				src="video/kalapi-reel-kurz_crf-28_yuv420p.mp4"
 				class="w-full"
 			></video>
 		</div>
-		<div class="absolute w-full bottom-0 left-0 bg-gradient-to-t from-black to-transparent">
+		<div class="absolute w-full bottom-0 left-0 bg-gradient-to-t from-black to-black-500">
 			<div class="area">
 				<div class="pt-8 lg:-mb-8 w-full lg:w-2/3 z-10">
 					<HeroHeadline :headline="props.headline" />
