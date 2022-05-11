@@ -1,6 +1,6 @@
 <template>
 	<header ref="navbar">
-		<div class="relative bg-black h-16 lg:h-32 overflow-visible z-30">
+		<div class="relative bg-black h-24 lg:h-32 overflow-visible z-30">
 			<div class="area">
 				<div class="flex justify-between items-center py-4 lg:pt-12 lg:justify-start md:space-x-10">
 					<div class="flex justify-start lg:w-0 lg:flex-1 relative h-12">
