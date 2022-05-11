@@ -47,7 +47,7 @@
 
 						<a
 							target="_blank"
-							class="px-4 py-2 text-xl text-red-500 border-red-500 border-2 hover:bg-red-500 hover:text-white"
+							class="px-4 py-2 text-xl text-red-500 border-red-500 border-2 hover:bg-red-500 hover:text-white font-bold transition-colors"
 							:href="shopLink.ref"
 							>Shop</a
 						>
@@ -107,7 +107,7 @@
 									<div class="flex justify-center">
 										<a
 											target="_blank"
-											class="px-4 py-2 text-xl text-red-500 border-red-500 border-2 hover:bg-red-500 hover:text-white"
+											class="px-4 py-2 text-xl text-red-500 border-red-500 border-2 hover:bg-red-500 hover:text-white font-bold"
 											:href="shopLink.ref"
 											>Shop</a
 										>

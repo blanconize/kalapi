@@ -4,8 +4,8 @@
 		ref="textRef"
 		:class="!show ? `opacity-0 ${left ? 'translate-x-10' : '-translate-x-10'}` : ''"
 	>
-		<div class="text-xl">{{ content.overline }}</div>
-		<div class="text-4xl">{{ content.headline }}</div>
+		<div class="text-xl font-bold">{{ content.overline }}</div>
+		<div class="text-4xl font-bold">{{ content.headline }}</div>
 		<div class="text-sm font-opensans">
 			{{ content.text }}
 		</div>

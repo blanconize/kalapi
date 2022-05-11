@@ -3,9 +3,6 @@
 		<div class="area">
 			<div class="flex items-center gap-12">
 				<h2 class="text-4xl sm:text-6xl lg:text-9xl text-black font-bold uppercase">Kalapi Live</h2>
-				<div class="bg-black px-6 pt-4 pb-3 inline-flex items-center">
-					<h3 class="text-4xl tracking-5 text-white leading-none uppercase">Termine</h3>
-				</div>
 			</div>
 			<div class="py-8 flex justify-end flex-wrap gap-y-12">
 				<Termin

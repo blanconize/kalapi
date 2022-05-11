@@ -4,17 +4,17 @@
 			<div class="area">
 				<div class="flex justify-start md:justify-between flex-wrap py-2">
 					<div class="flex w-full justify-between md:justify-start md:w-auto flex-wrap">
-						<div class="text-lg md:mr-36">&copy; KALAPI GBR {{ date }}</div>
+						<div class="text-lg md:mr-36 font-bold">&copy; KALAPI GBR {{ date }}</div>
 						<div class="flex flex-wrap md:flex-nowrap md:space-x-24">
 							<div
-								class="w-full text-center md:text-left md:w-auto text-lg uppercase"
+								class="w-full text-center md:text-left md:w-auto text-lg uppercase font-bold"
 								v-for="nav in navigation"
 							>
 								<a :href="nav.ref" target="_blank">{{ nav.label }}</a>
 							</div>
 						</div>
 					</div>
-					<div class="text-lg py-4 md:py-0 uppercase w-full md:w-auto">
+					<div class="text-lg py-4 md:py-0 uppercase w-full font-bold md:w-auto">
 						<a href="https://www.weareindeed.com/" target="_blank"
 							>WEBSITE: <span class="text-red-500 underline"> WEAREINDEED</span></a
 						>

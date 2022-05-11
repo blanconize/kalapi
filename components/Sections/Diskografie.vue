@@ -1,7 +1,7 @@
 <template>
 	<section ref="diskografie" id="diskografie" class="bg-white py-24">
 		<div class="area">
-			<div class="bg-black p-6 inline-flex items-center mb-12">
+			<div class="py-6 inline-flex items-center mb-12">
 				<SectionHeadline headline="Diskografie" />
 			</div>
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

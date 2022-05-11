@@ -12,23 +12,13 @@
 			class="absolute bottom-full left-0 w-full h-4 bg-contain bg-repeat rotate-180"
 			style="background-image: url('distortion_bottom.svg')"
 		></div>
-		<!-- <div class="absolute top-0 left-full -translate-x-1 w-[10000px] h-full bg-black">
-			<div
-				class="absolute top-full left-0 w-full h-4 bg-contain bg-repeat"
-				style="background-image: url('distortion_bottom.svg')"
-			></div>
-			<div
-				class="absolute bottom-full left-0 w-full h-4 bg-contain bg-repeat rotate-180"
-				style="background-image: url('distortion_bottom.svg')"
-			></div>
-		</div> -->
 		<div
 			class="bg-black p-8 flex flex-wrap md:flex-nowrap gap-8 items-center justify-between rounded-tl-sm rounded-bl-sm"
 		>
-			<div class="text-4xl w-full md:w-auto">{{ termin.date }}</div>
-			<div class="text-4xl w-full sm:w-2/3">{{ termin.title }}</div>
+			<div class="text-4xl w-full md:w-auto font-bold">{{ termin.date }}</div>
+			<div class="text-4xl w-full sm:w-2/3 font-bold">{{ termin.title }}</div>
 			<div
-				class="px-4 py-2 text-xl text-white border-white border-2 hover:bg-white hover:text-black transition-colors uppercase content-end"
+				class="px-4 py-2 text-white border-white border-2 hover:bg-white hover:text-black transition-colors uppercase content-end font-bold"
 			>
 				<a :href="termin.link" target="_blank">Tickets</a>
 			</div>

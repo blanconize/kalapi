@@ -1,7 +1,7 @@
 <template>
 	<section ref="aktuelles" id="aktuelles" class="bg-white py-24">
 		<div class="area">
-			<div class="bg-black p-6 inline-flex items-center">
+			<div class="py-6 inline-flex items-center">
 				<SectionHeadline headline="Aktuelles" />
 			</div>
 			<CardText
