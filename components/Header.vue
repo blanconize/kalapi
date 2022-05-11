@@ -1,13 +1,13 @@
 <template>
 	<header ref="navbar">
-		<div class="relative bg-black h-20 lg:h-48">
+		<div class="relative bg-black h-16 lg:h-32 overflow-visible z-30">
 			<div class="area">
 				<div class="flex justify-between items-center py-4 lg:pt-12 lg:justify-start md:space-x-10">
 					<div class="flex justify-start lg:w-0 lg:flex-1 relative h-12">
 						<nuxt-link to="/">
 							<span class="sr-only">Workflow</span>
 							<div class="lg:absolute lg:-top-8 lg:left-0">
-								<nuxt-img class="h-12 w-auto lg:h-40 transition-all" src="logo.svg" />
+								<nuxt-img class="h-16 xs:h-32 w-auto lg:h-40 transition-all" src="logo.svg" />
 							</div>
 						</nuxt-link>
 					</div>
@@ -65,7 +65,7 @@
 						<div class="pt-5 pb-6 px-5">
 							<div class="flex items-center justify-between">
 								<div>
-									<img class="h-12 w-auto" src="logo.svg" alt="Kalapi" />
+									<img class="h-16 xs:h-32 w-auto" src="logo.svg" alt="Kalapi" />
 								</div>
 								<div class="-mr-2">
 									<button

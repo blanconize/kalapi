@@ -1,5 +1,5 @@
 <template>
-	<section ref="aktuelles" id="aktuelles" class="bg-white py-24">
+	<section ref="aktuelles" id="aktuelles" class="bg-white py-12 lg:py-24">
 		<div class="area">
 			<div class="py-6 inline-flex items-center">
 				<SectionHeadline headline="Aktuelles" />
