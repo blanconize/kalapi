@@ -22,6 +22,7 @@
 							class="col-span-auto md:col-span-1 md:flex md:justify-end"
 						>
 							<a target="_blank" :href="contact.link">
+								<div class="sr-only">{{ contact.link }}</div>
 								<Icon class="h-6 w-6 hover:text-red-500" :name="contact.icon" />
 							</a>
 						</div>
