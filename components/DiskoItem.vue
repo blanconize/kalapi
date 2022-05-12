@@ -22,6 +22,7 @@
 			>
 			<div class="px-4 py-2 bg-black text-white font-bold text-lg" v-else>Vergriffen</div>
 			<a v-if="data.spotify" :href="data.spotify" target="_blank">
+				<div class="sr-only">{{ data.spotify }}</div>
 				<Icon class="h-8 w-8 hover:text-red-500 transition-all" name="spotify" />
 			</a>
 		</div>

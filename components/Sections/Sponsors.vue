@@ -4,7 +4,8 @@
 			<div class="grid grid-cols-4 gap-12">
 				<div class="col-span-2 lg:col-span-1" v-for="(sponsor, index) in sponsors">
 					<a :href="sponsor.link" target="_blank">
-						<LazyImage type="img" :src="sponsor.imgUrl" />
+						<div class="sr-only">{{ sponsor.link }}</div>
+						<LazyImage type="img" :src="sponsor.imgUrl" :alt="sponsor.link" />
 					</a>
 				</div>
 			</div>
