@@ -1,16 +1,16 @@
 <template>
 	<section ref="hero" class="bg-black flex items-end justify-start flex-wrap relative">
-		<div class="w-full">
+		<div class="w-full h-96 sm:h-auto">
 			<video
-				ref="video"
 				id="kalapiHeroVideo"
 				autoplay
 				muted
 				loop
-				src="video/kalapi-reel-kurz_crf-28_yuv420p.mp4"
-				class="w-full"
+				class="w-full absolute top-0 left-0 h-full sm:relative sm:h-auto object-cover"
 				playsinline
-			></video>
+			>
+				<source src="video/kalapi-reel-kurz_crf-28_yuv420p.mp4" />
+			</video>
 		</div>
 		<div class="absolute w-full bottom-0 left-0 bg-gradient-to-t from-black to-black-500">
 			<div class="area">
