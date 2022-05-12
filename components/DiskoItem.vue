@@ -1,7 +1,7 @@
 <template>
 	<div class="pb-14 relative">
 		<div class="mb-4">
-			<LazyImage type="img" :src="data.cover" />
+			<LazyImage type="img" :src="data.cover" :alt="data.title" />
 		</div>
 		<div class="text-black font-bold text-lg mb-2">
 			{{ data.title }}
