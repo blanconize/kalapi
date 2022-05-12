@@ -8,7 +8,7 @@
 			<h2 class="text-4xl sm:text-6xl lg:text-9xl text-white font-bold uppercase lg:translate-y-[-24px] pb-4">
 				Die Band
 			</h2>
-			<p class="text-white text-lg font-opensans pb-12 lg:pl-12 lg:pb-24">{{ band.text }}</p>
+			<!-- <p class="text-white text-lg font-opensans pb-12 lg:pl-12 lg:pb-24">{{ band.text }}</p> -->
 		</div>
 		<div class="area-xl">
 			<div class="grid grid-cols-8 xl:grid-cols-9 gap-6">
