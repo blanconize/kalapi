@@ -2,7 +2,7 @@
 	<div
 		class="py-6 sm:p-4 md:py-10 transition-all duration-300 delay-300"
 		ref="textRef"
-		:class="!show ? `opacity-0 ${left ? 'translate-x-10' : '-translate-x-10'}` : ''"
+		:class="!show ? `opacity-0 ${left ? 'translate-y-10' : '-translate-y-10'}` : ''"
 	>
 		<div class="text-xl font-bold">{{ content.overline }}</div>
 		<div class="text-4xl font-bold">{{ content.headline }}</div>

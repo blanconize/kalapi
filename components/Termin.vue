@@ -2,7 +2,7 @@
 	<div
 		class="text-white bg-cover bg-no-repeat w-full lg:w-10/12 transition-all duration-500 relative"
 		ref="terminRef"
-		:class="!show ? 'opacity-0 translate-x-52' : ''"
+		:class="!show ? 'opacity-0 translate-y-12' : ''"
 	>
 		<div
 			class="absolute top-full left-0 w-full h-4 bg-contain bg-repeat"

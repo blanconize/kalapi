@@ -1,5 +1,5 @@
 <template>
-	<section id="termine" class="bg-white pb-24 overflow-x-clip">
+	<section id="termine" class="bg-white pb-24">
 		<div class="area">
 			<div class="flex items-center gap-12">
 				<h2 class="text-4xl sm:text-6xl lg:text-9xl text-black font-bold uppercase">Kalapi Live</h2>
