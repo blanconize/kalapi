@@ -3,7 +3,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "kalapi",
+		title: "KALAPI - Oldschool war Gestern - Kein Bock auf Nazis!",
 		htmlAttrs: {
 			lang: "en"
 		},
@@ -13,7 +13,11 @@ export default {
 		meta: [
 			{ charset: "utf-8" },
 			{ name: "viewport", content: "width=device-width, initial-scale=1" },
-			{ hid: "description", name: "description", content: "" },
+			{
+				hid: "description",
+				name: "description",
+				content: "KALAPI - Oldschool war Gestern - Kein Bock auf Nazis!"
+			},
 			{ name: "format-detection", content: "telephone=no" }
 		],
 		link: [
