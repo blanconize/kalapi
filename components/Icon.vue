@@ -1,5 +1,5 @@
 <template>
-	<div class="flex items-center transition-colors" v-html="iconSvg(props.name)"></div>
+	<div class="flex items-center transition-colors kalapi-icon" v-html="iconSvg(props.name)"></div>
 </template>
 
 <script setup>
@@ -12,4 +12,7 @@
 	};
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+	.kalapi-icon > svg {
+	}
+</style>
