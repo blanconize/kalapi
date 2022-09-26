@@ -19,15 +19,6 @@ export default {
 				content: "KALAPI - Oldschool war Gestern - Kein Bock auf Nazis!"
 			},
 			{ name: "format-detection", content: "telephone=no" }
-		],
-		link: [
-			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-			{ rel: "preconnect", href: "https://fonts.googleapis.com" },
-			{ rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
-			{
-				rel: "stylesheet",
-				href: "https://fonts.googleapis.com/css2?family=Open+Sans&family=Teko:wght@300;400;700&display=swap"
-			}
 		]
 	},
 
