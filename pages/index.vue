@@ -2,7 +2,7 @@
 	<main class="max-w-full">
 		<Hero headline="OLD SCHOOL WAR GESTERN" />
 		<Aktuelles :news="content.news" />
-		<Termine :termine="content.termine" />
+		<!-- <Termine :termine="content.termine" /> -->
 		<Band :band="content.band" />
 		<Diskografie :diskografie="content.diskografie" />
 		<Kontakt :kontakt="content.kontakt" />
